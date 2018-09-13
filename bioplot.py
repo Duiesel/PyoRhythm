@@ -10,7 +10,6 @@ and http://www.spiritualplatform.org/library/biorhythms.html
 
 dd,mm,yy=31,1,1956	# Guido van Rossum
 
-
 from datetime import date
 import matplotlib.dates
 from pylab import *
@@ -24,9 +23,9 @@ t0 = date(yy,mm,dd).toordinal()
 t1 = date.today().toordinal()
 t = array(range(t1-3,t1+31)) # range of 31 days
 
-y =     (sin(2*pi*(t-t0)/23),  # Physical
-         sin(2*pi*(t-t0)/28),  # Emotional
-         sin(2*pi*(t-t0)/33),  # Intellectual
+y =     (sin(2*pi*(t-t0)/23.688437),  # Physical
+         sin(2*pi*(t-t0)/28.426125),  # Emotional
+         sin(2*pi*(t-t0)/33.163812),  # Intellectual
          sin(2*pi*(t-t0)/38),  # intuitive
          sin(2*pi*(t-t0)/43),  # aesthetic
          sin(2*pi*(t-t0)/48),  # awareness

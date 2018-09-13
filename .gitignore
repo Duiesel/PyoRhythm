@@ -1,0 +1,92 @@
+.env
+
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+ve
+.Trash-1000
+._*
+.DS_Store
+.vagrant
+venv
+.venv
+Thumbs.db
+.ipython/*
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+htmlcov
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+# PyCharm
+.idea
+
+restaurants/conf/settings_local.py
+restaurants/conf/old_settings_local.py
+restaurants/uploads
+restaurants/assets/css/c_*
+restaurants/assets/js/c_*
+restaurants/version.py
+
+VERSION
+
+# db
+*.rdb
+*.sql
+
+# FRONT-END
+blessed/
+restaurants/static
+node_modules/
+dotfiles/
+.jscsrc
+yarn.lock
+package-lock.json
+jsdoc/
+restaurants/templates/jsdoc/
+.vscode/
+
+# VAGRANT
+.vagrant/
+
+# logs
+
+*.log
+
+test_similar.py
+
+xml/*
+.cache/
+.eggs/
+
+.bundle/
+.ipynb_checkpoints/
+notebooks/
+
+# celery
+celerybeat-schedule*
+celerybeat.pid
+restaurants/templates/mobile2017/components/burger/burger.html
+
+# feeds
+gmaps_*.json

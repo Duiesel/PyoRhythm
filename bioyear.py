@@ -47,9 +47,9 @@ t0 = date(yy,mm,dd).toordinal()
 t1 = date(year,1,1).toordinal()
 t = array(range(t1,t1+dur+2)) # one year
 
-y =     (sin(2*pi*(t-t0)/23),  # Physical
-         sin(2*pi*(t-t0)/28),  # Emotional
-         sin(2*pi*(t-t0)/33))  # Intellectual
+y =     (sin(2*pi*(t-t0)/23.688437),  # Physical
+         sin(2*pi*(t-t0)/28.426125),  # Emotional
+         sin(2*pi*(t-t0)/33.163812))  # Intellectual
 
 av3 = (y[0]+y[1]+y[2])/3.
 
